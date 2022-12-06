@@ -9,8 +9,8 @@ public class Main {
 //        int answer = test.method();
 //        System.out.println(answer);
 
-        StringToInt test = new StringToInt();
-        int result = test.myAtoi("100");
+        containerMostWater test = new containerMostWater();
+        int result = test.maxArea(new int[]{1,8,6,2,5,4,8,3,7});
         System.out.println(result);
     }
 }
