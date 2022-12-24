@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 //        ZipzagConvert test = new ZipzagConvert();
@@ -9,8 +11,16 @@ public class Main {
 //        int answer = test.method();
 //        System.out.println(answer);
 
-        containerMostWater test = new containerMostWater();
-        int result = test.maxArea(new int[]{1,8,6,2,5,4,8,3,7});
+//        Multiplicationfour test = new Multiplicationfour();
+//        List answer = test.calculate(new int[] {2,2,3,111,5,1,2,3,4});
+//        System.out.println(answer);
+
+//        CheckParentheses test = new CheckParentheses();
+//        test.calculate("3 / {1 + [(1 + 1) * 1]}");
+
+        InterviewQ test = new InterviewQ();
+        int result = test.findMin(4, new int[] {1,4,4});
         System.out.println(result);
+
     }
 }
